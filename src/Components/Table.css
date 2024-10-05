@@ -1,0 +1,47 @@
+.expense-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.expense-table select {
+    font: inherit;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.amount-column div {
+    display: flex;
+}
+
+.amount-column span {
+    margin-right: 6px;
+}
+
+.arrow {
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.up-arrow {
+    margin-left: auto;
+}
+
+.up-arrow:active {
+    transform: translateY(-2px);
+}
+
+.down-arrow {
+    margin-left: 6px;
+}
+
+.down-arrow:active {
+    transform: translateY(2px);
+}
+
+.expense-table th,
+.expense-table td {
+    border: 1px solid #444;
+    text-align: left;
+    padding: 4px 8px;
+}
